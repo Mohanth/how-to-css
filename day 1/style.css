@@ -1,0 +1,219 @@
+/*  */
+
+.title {
+    text-decoration: underline rgb(0, 232, 0);
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.box {
+
+    border: 1px solid lightgray;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box-img {
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+/* Assignments */
+
+.btn {
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+}
+
+.bg {
+    border-radius: 12px;
+    width: 450px;
+    margin: 50px;
+    color: black;
+    padding: 100px 50px;
+    background-color: #1de592;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bg-btn {
+    color: black;
+    padding: 14px 32px;
+    font-size: 16px;
+    border-radius: 24px;
+
+}
+
+.card-heading {
+    width: 100px;
+}
+
+.card-sub-heading {
+    font-weight: bold;
+}
+
+/* Profile Card */
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    margin: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.profile-card {
+    width: 400px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.card-btn {
+    color: #0b57d0;
+    font-weight: 600;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: 20px
+}
+
+.card-top {
+    padding: 24px;
+}
+
+.card-bottom {
+    border-top: 1px solid lightgray;
+    padding: 24px;
+}
+
+/* Photos card */
+.photos-card {
+    width: 350px;
+}
+
+.photos-card-body {
+    padding: 20px;
+}
+
+.photos-card-img {
+    width: 100%;
+}
+
+.photos-btn {
+    color: #0b57d0;
+    font-weight: 600;
+}
+
+.photos-btn {
+    border: 1px solid lightgray;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+.photos-card-sub-heading {
+    display: flex;
+    align-items: center;
+
+}
+
+.photos-card-sub-heading>img {
+    padding-right: 10px;
+}
+
+.gray-color {
+    color: #a5a7a9;
+    /* couldn't find right font style */
+
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+/* Login screen */
+
+.login {
+    width: 400px;
+    margin: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.flowdesk-logo {
+    width: 50%;
+}
+
+.login-btn {
+    border: none;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 16px 50px;
+    border-radius: 40px;
+    margin: 10px auto;
+}
+
+.new-user {
+    padding-top: 40px;
+}
+
+.new-user a {
+    text-decoration: underline;
+    color: black;
+}
+
+.user-agreements {
+    padding-top: 30px;
+}
+
+.user-agreements a {
+    text-decoration: underline;
+    color: #a5a7a9;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+}
+
+.input-password input {
+    width: 90%;
+    margin-bottom: 12px;
+    padding: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+}
+
+.credentials button {
+    background-color: white;
+    color: rgb(180, 180, 180);
+    border: none;
+    margin-left: -55px;
+    margin-top: 16px;
+    position: absolute;
+}
